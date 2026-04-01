@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Canopy Arborists — Science-based tree care, preservation, and risk management in Sonoma, Napa, and Marin Counties. ISA Certified Arborist." />
+  <title>Canopy Arborists | Advanced Tree Care &amp; Arboriculture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Canopy Arborists Home">
+        <svg class="nav-logo-icon" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="19" cy="19" r="19" fill="rgba(255,255,255,0.12)"/>
+          <path d="M19 6 C14 6 10 10 10 15 C10 18 11.5 20.5 14 22 L14 30 L24 30 L24 22 C26.5 20.5 28 18 28 15 C28 10 24 6 19 6Z" fill="#F9D619"/>
+          <path d="M16 22 L16 28 M22 22 L22 28" stroke="#1a3d28" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M13 14 C13 14 16 18 19 16 C22 14 25 18 25 18" stroke="#1a3d28" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="nav-logo-text">
+          Canopy Arborists
+          <span>ISA Certified Tree Care</span>
+        </span>
+      </a>
+      <div class="nav-links" role="menubar">
+        <a href="index.html" role="menuitem">Home</a>
+        <a href="about.html" role="menuitem">About</a>
+        <a href="services.html" role="menuitem">Services</a>
+        <a href="index.html#why-us" role="menuitem">Why Us</a>
+        <a href="contact.html" role="menuitem">Contact</a>
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta" role="menuitem">Get a Quote</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home" aria-label="Hero">
+    <!-- Decorative tree silhouette -->
+    <svg class="hero-tree-bg" viewBox="0 0 600 700" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M300 680 L300 320" stroke="white" stroke-width="28" stroke-linecap="round"/>
+      <path d="M300 320 L220 200 L260 210 L180 100 L230 118 L160 20 L300 80 L440 20 L370 118 L420 100 L340 210 L380 200 L300 320Z" fill="white" opacity="0.9"/>
+      <path d="M300 450 L200 350 L240 360 L180 270 L300 320 L420 270 L360 360 L400 350 Z" fill="white" opacity="0.7"/>
+      <path d="M230 550 L300 480 L370 550" fill="white" opacity="0.5"/>
+      <path d="M260 620 L300 580 L340 620" fill="white" opacity="0.3"/>
+    </svg>
+
+    <div class="container">
+      <div class="hero-content animate">
+        <div class="hero-label">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M7 1C5 1 3 3 3 5.5C3 7 3.8 8.2 5 9L5 12L9 12L9 9C10.2 8.2 11 7 11 5.5C11 3 9 1 7 1Z" fill="currentColor"/>
+          </svg>
+          ISA Certified Arborist &mdash; North Bay California
+        </div>
+        <h1>Advanced<br/><span class="highlight">Arboriculture</span><br/>&amp; Tree Care</h1>
+        <p class="hero-sub">Science-based tree preservation, risk management, and plant health care for the landscapes that matter most.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Request Consultation &rarr;</a>
+          <a href="services.html" class="hero-link">
+            Explore Our Services
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M3 8H13M9 4L13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Row -->
+    <div class="stats-row">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number">500+</div>
+            <p class="stat-label">Trees Cared For</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <p class="stat-label">Years Experience</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">ISA</div>
+            <p class="stat-label">Certified Arborist</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3</div>
+            <p class="stat-label">Counties Served</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SUMMARY ============ -->
+  <section class="about-summary section" id="about">
+    <div class="container">
+      <div class="two-col">
+        <div class="animate">
+          <span class="label-tag">About Us</span>
+          <h2 class="section-title">Who We Are</h2>
+          <div class="divider"></div>
+          <p>Canopy Arborists is led by Edgar Guerrero, an ISA Certified Arborist with over 15 years of hands-on experience in professional tree care. We bring scientific rigor and genuine passion for arboriculture to every project we undertake.</p>
+          <p>Our work is grounded in the principles of modern arboriculture — we prioritize tree preservation, long-term health, and structural integrity. Whether managing a single specimen or a full property inventory, we apply the same evidence-based standards.</p>
+          <p>We serve residential, commercial, and municipal clients across <strong>Sonoma, Napa, and Marin Counties</strong>, providing the North Bay with a professional arboriculture service it can trust.</p>
+          <a href="about.html" class="btn btn-outline" style="margin-top:8px;">Learn More About Us &rarr;</a>
+        </div>
+        <div class="animate animate-delay-2">
+          <div class="cert-card">
+            <h4>Certifications &amp; Credentials</h4>
+            <div class="cert-item">
+              <div class="cert-icon">
+                <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10 2L12.2 7.4H18L13.4 10.6L15.6 16L10 12.8L4.4 16L6.6 10.6L2 7.4H7.8L10 2Z"/></svg>
+              </div>
+              <div class="cert-text">
+                <strong>ISA Certified Arborist</strong>
+                <span>International Society of Arboriculture</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">
+                <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 17V5C3 3.9 3.9 3 5 3H15C16.1 3 17 3.9 17 5V17L10 14L3 17Z"/></svg>
+              </div>
+              <div class="cert-text">
+                <strong>TRAQ Qualified</strong>
+                <span>Tree Risk Assessment Qualification</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">
+                <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10 2C7.2 2 5 4.2 5 7C5 9.8 10 18 10 18C10 18 15 9.8 15 7C15 4.2 12.8 2 10 2ZM10 9C8.9 9 8 8.1 8 7C8 5.9 8.9 5 10 5C11.1 5 12 5.9 12 7C12 8.1 11.1 9 10 9Z"/></svg>
+              </div>
+              <div class="cert-text">
+                <strong>Licensed Contractor</strong>
+                <span>California State Licensed</span>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-icon">
+                <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10 2L3 5V10C3 14.4 6 18.3 10 19C14 18.3 17 14.4 17 10V5L10 2Z"/></svg>
+              </div>
+              <div class="cert-text">
+                <strong>Fully Insured</strong>
+                <span>Liability &amp; Workers' Compensation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CORE PHILOSOPHY ============ -->
+  <section class="philosophy section" id="philosophy" aria-label="Our Core Philosophy">
+    <div class="container">
+      <div class="section-header center text-white animate">
+        <span class="label-tag white">Our Approach</span>
+        <h2 class="section-title" style="color:var(--white);margin-top:0.5rem;">Core Philosophy</h2>
+        <div class="divider center"></div>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.75);">Everything we do is guided by three foundational principles that shape how we care for every tree.</p>
+      </div>
+      <div class="philosophy-grid">
+        <div class="philosophy-card animate animate-delay-1">
+          <span class="philosophy-icon" aria-hidden="true">&#127795;</span>
+          <h3>Preservation First</h3>
+          <p>We always explore every avenue to preserve a tree before recommending removal. Healthy trees are irreplaceable assets to your property and the broader ecosystem.</p>
+        </div>
+        <div class="philosophy-card animate animate-delay-2">
+          <span class="philosophy-icon" aria-hidden="true">&#128300;</span>
+          <h3>Science-Based Practice</h3>
+          <p>Our recommendations are rooted in the latest arboricultural research and ISA best practices — not guesswork. We diagnose, assess, and treat with evidence.</p>
+        </div>
+        <div class="philosophy-card animate animate-delay-3">
+          <span class="philosophy-icon" aria-hidden="true">&#128737;&#65039;</span>
+          <h3>Risk Management</h3>
+          <p>We provide clear, TRAQ-based risk assessments that give you the information you need to make confident decisions about the trees on your property.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES PREVIEW ============ -->
+  <section class="services-preview section" id="services">
+    <div class="container">
+      <div class="section-header center animate">
+        <span class="label-tag">What We Do</span>
+        <h2 class="section-title">Our Services</h2>
+        <div class="divider center"></div>
+        <p class="section-subtitle">Comprehensive arboriculture services delivered with scientific precision and professional care.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card animate animate-delay-1">
+          <div class="service-card-icon" aria-hidden="true">&#128203;</div>
+          <h3>Tree Management Plans</h3>
+          <p>Customized long-term plans for tree health, growth scheduling, and risk mitigation across your entire property.</p>
+          <a href="services.html#management-plans" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="service-card animate animate-delay-2">
+          <div class="service-card-icon" aria-hidden="true">&#9986;&#65039;</div>
+          <h3>Tree Pruning &amp; Structural Training</h3>
+          <p>Expert pruning for safety, aesthetics, and long-term tree health — from deadwood removal to structural training for young trees.</p>
+          <a href="services.html#pruning" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="service-card animate animate-delay-3">
+          <div class="service-card-icon" aria-hidden="true">&#127807;</div>
+          <h3>Plant Health Care Programs</h3>
+          <p>Proactive treatment programs to prevent disease, manage pests, and maintain the vitality of your trees and landscape.</p>
+          <a href="services.html#plant-health" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="service-card animate animate-delay-1">
+          <div class="service-card-icon" aria-hidden="true">&#128270;</div>
+          <h3>Tree Risk Assessment</h3>
+          <p>Professional TRAQ-based evaluation of tree stability and hazard potential — with a written report and mitigation recommendations.</p>
+          <a href="services.html#risk-assessment" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="service-card animate animate-delay-2">
+          <div class="service-card-icon" aria-hidden="true">&#129683;</div>
+          <h3>Tree Removal</h3>
+          <p>Safe, efficient removal when trees pose unacceptable risk, with full cleanup, stump grinding, and permit assistance.</p>
+          <a href="services.html#removal" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="service-card animate animate-delay-3">
+          <div class="service-card-icon" aria-hidden="true">&#127807;</div>
+          <h3>Root Zone &amp; Soil Management</h3>
+          <p>Protecting root systems and improving soil health through aeration, mulching, and compaction remediation.</p>
+          <a href="services.html#soil" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="service-card animate animate-delay-1">
+          <div class="service-card-icon" aria-hidden="true">&#9889;</div>
+          <h3>Emergency Tree Services</h3>
+          <p>24/7 response for storm damage and fallen trees — rapid hazard mitigation, debris removal, and insurance documentation.</p>
+          <a href="services.html#emergency" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+        <div class="service-card animate animate-delay-2">
+          <div class="service-card-icon" aria-hidden="true">&#128221;</div>
+          <h3>Consulting &amp; Expert Services</h3>
+          <p>Expert advice for construction, development, legal, and insurance cases — including expert witness testimony.</p>
+          <a href="services.html#consulting" class="service-card-link">Learn More &rarr;</a>
+        </div>
+
+      </div>
+      <div style="text-align:center;margin-top:2.5rem;" class="animate">
+        <a href="services.html" class="btn btn-green">View All Services &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section class="why-us section" id="why-us">
+    <div class="container">
+      <div class="section-header center animate">
+        <span class="label-tag">Why Canopy</span>
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="divider center"></div>
+        <p class="section-subtitle">We bring professional standards, certified expertise, and genuine care to every project.</p>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card animate animate-delay-1">
+          <div class="why-icon">
+            <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M13 2L15.8 9.4H23.8L17.5 13.9L19.8 21.3L13 16.8L6.2 21.3L8.5 13.9L2.2 9.4H10.2L13 2Z" fill="var(--dark-green)"/>
+            </svg>
+          </div>
+          <h3>ISA Certification</h3>
+          <p>Our lead arborist holds the industry's gold standard — ISA Certified Arborist status — ensuring you receive care backed by verified expertise.</p>
+        </div>
+
+        <div class="why-card animate animate-delay-2">
+          <div class="why-icon">
+            <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4 17V7C4 5.9 4.9 5 6 5H20C21.1 5 22 5.9 22 7V17L13 21L4 17Z" fill="var(--dark-green)" opacity="0.9"/>
+              <path d="M9 11L12 14L17 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>TRAQ Qualification</h3>
+          <p>We hold the Tree Risk Assessment Qualification (TRAQ) from ISA — providing you with scientifically-grounded, defensible risk evaluations.</p>
+        </div>
+
+        <div class="why-card animate animate-delay-3">
+          <div class="why-icon">
+            <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="13" cy="10" r="6" fill="var(--dark-green)"/>
+              <path d="M7 22C7 18.7 9.7 16 13 16C16.3 16 19 18.7 19 22" stroke="var(--dark-green)" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="20" cy="8" r="3" fill="var(--dark-green)" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Science-Based Approach</h3>
+          <p>Every recommendation we make is grounded in current arboricultural research and ISA best management practices — not tradition or guesswork.</p>
+        </div>
+
+        <div class="why-card animate animate-delay-1">
+          <div class="why-icon">
+            <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M13 3C9 3 6 6 6 10C6 13 10 19 13 23C16 19 20 13 20 10C20 6 17 3 13 3Z" fill="var(--dark-green)"/>
+              <circle cx="13" cy="10" r="3" fill="var(--accent-yellow)"/>
+            </svg>
+          </div>
+          <h3>Local Expertise</h3>
+          <p>Deep knowledge of the trees, soils, climate, and regulations specific to Sonoma, Napa, and Marin Counties — your local arborist advantage.</p>
+        </div>
+
+        <div class="why-card animate animate-delay-2">
+          <div class="why-icon">
+            <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="4" width="18" height="18" rx="3" fill="var(--dark-green)"/>
+              <path d="M8 13H18M8 9H14M8 17H16" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Detailed Reporting</h3>
+          <p>We provide written reports, management plans, and assessment documentation — giving you a clear record for decisions, insurance, or legal needs.</p>
+        </div>
+
+        <div class="why-card animate animate-delay-3">
+          <div class="why-icon">
+            <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M13 2L4 7V13C4 18 8 22.4 13 24C18 22.4 22 18 22 13V7L13 2Z" fill="var(--dark-green)"/>
+              <path d="M9 13L12 16L17 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Emergency Response</h3>
+          <p>We offer rapid emergency response for storm damage and fallen trees — available when you need us most, with clear communication throughout.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHO WE SERVE ============ -->
+  <section class="who-serve section" aria-label="Who We Serve">
+    <div class="container">
+      <div class="section-header center text-white animate">
+        <span class="label-tag white">Our Clients</span>
+        <h2 class="section-title" style="color:var(--white);margin-top:0.5rem;">Who We Serve</h2>
+        <div class="divider center"></div>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.75);">From homeowners to municipalities, we deliver professional arboriculture to every type of client.</p>
+      </div>
+      <div class="serve-grid">
+        <div class="serve-card animate animate-delay-1">
+          <span class="serve-icon" aria-hidden="true">&#127968;</span>
+          <h4>Residential Homeowners</h4>
+        </div>
+        <div class="serve-card animate animate-delay-2">
+          <span class="serve-icon" aria-hidden="true">&#127963;</span>
+          <h4>HOAs &amp; Property Managers</h4>
+        </div>
+        <div class="serve-card animate animate-delay-3">
+          <span class="serve-icon" aria-hidden="true">&#127970;</span>
+          <h4>Commercial Properties</h4>
+        </div>
+        <div class="serve-card animate animate-delay-4">
+          <span class="serve-icon" aria-hidden="true">&#127961;&#65039;</span>
+          <h4>Municipalities &amp; Public Agencies</h4>
+        </div>
+        <div class="serve-card animate animate-delay-1">
+          <span class="serve-icon" aria-hidden="true">&#127959;&#65039;</span>
+          <h4>Construction Projects</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header center animate">
+        <span class="label-tag">Client Feedback</span>
+        <h2 class="section-title">What Clients Say</h2>
+        <div class="divider center"></div>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card animate animate-delay-1">
+          <div class="stars" aria-label="5 stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="testimonial-text">Edgar identified a serious structural defect in our oak that three other companies missed. His written report gave us exactly what we needed to make an informed decision. Absolutely the standard for professional tree care.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">MR</div>
+            <div class="testimonial-info">
+              <strong>Michael R.</strong>
+              <span>Santa Rosa, Sonoma County</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate animate-delay-2">
+          <div class="stars" aria-label="5 stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="testimonial-text">We hired Canopy Arborists for our HOA's annual tree management plan. They provided clear documentation, prioritized the work intelligently, and kept our 200+ trees in excellent health. Highly recommend to any property manager.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">SL</div>
+            <div class="testimonial-info">
+              <strong>Sandra L.</strong>
+              <span>HOA Manager, Napa County</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card animate animate-delay-3">
+          <div class="stars" aria-label="5 stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="testimonial-text">After the last big storm we had three trees down. Canopy was on-site the next morning, handled all the documentation for our insurance claim, and had everything cleared safely. Could not have asked for better service.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">DK</div>
+            <div class="testimonial-info">
+              <strong>David K.</strong>
+              <span>Mill Valley, Marin County</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header center animate">
+        <span class="label-tag">Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="divider center"></div>
+      </div>
+      <div class="faq-list animate">
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <h4>How do I know if my tree needs pruning?</h4>
+            <div class="faq-toggle" aria-hidden="true">
+              <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 2V12M2 7H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            </div>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner">
+              <p>Key signs that pruning may be needed include: crossing or rubbing branches, deadwood in the canopy, excessive shading on structures below, branches with narrow crotch angles (which are prone to failure), and an overall unbalanced or crowded crown. We recommend a professional assessment to determine the appropriate pruning type and timing for your species — not all trees benefit from pruning at the same time of year.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <h4>What is a Tree Risk Assessment?</h4>
+            <div class="faq-toggle" aria-hidden="true">
+              <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 2V12M2 7H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            </div>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner">
+              <p>A Tree Risk Assessment is a structured evaluation of a tree's likelihood of failure and the potential consequences of that failure. We use the TRAQ (Tree Risk Assessment Qualification) methodology — the ISA standard — to assess structural defects, root health, site conditions, and targets. The result is a written report with a risk rating and specific mitigation recommendations, suitable for insurance, legal, or property management purposes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <h4>Are you ISA Certified?</h4>
+            <div class="faq-toggle" aria-hidden="true">
+              <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 2V12M2 7H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            </div>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner">
+              <p>Yes. Our lead arborist Edgar Guerrero holds an active ISA Certified Arborist credential, which requires passing a comprehensive examination, demonstrating significant field experience, and completing ongoing continuing education. We also hold the ISA Tree Risk Assessment Qualification (TRAQ). You can verify credentials at the ISA website using our certification number. We're happy to provide documentation on request.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <h4>Do you serve my area?</h4>
+            <div class="faq-toggle" aria-hidden="true">
+              <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 2V12M2 7H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            </div>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner">
+              <p>We serve clients throughout Sonoma County, Napa County, and Marin County in California — the North Bay region. This includes cities such as Santa Rosa, Petaluma, Sebastopol, Napa, St. Helena, San Rafael, Mill Valley, and surrounding communities. If you are unsure whether your property falls within our service area, please contact us and we will be glad to confirm.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <h4>What is Plant Health Care?</h4>
+            <div class="faq-toggle" aria-hidden="true">
+              <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 2V12M2 7H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            </div>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner">
+              <p>Plant Health Care (PHC) is a proactive, integrated approach to maintaining the health and vitality of trees and woody plants. Rather than reacting to problems as they appear, PHC involves regular monitoring, soil analysis, fertilization, and targeted treatments to prevent pest and disease issues before they become serious. We offer both organic and conventional treatment options, always prioritizing minimal environmental impact while maximizing tree health outcomes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" role="button" tabindex="0" aria-expanded="false">
+            <h4>How do I prepare for tree removal?</h4>
+            <div class="faq-toggle" aria-hidden="true">
+              <svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 2V12M2 7H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            </div>
+          </div>
+          <div class="faq-answer" role="region">
+            <div class="faq-answer-inner">
+              <p>Prior to removal, we recommend: confirming whether a permit is required from your local municipality (we can assist with this process), clearing the access path to the tree and surrounding area of vehicles, furniture, and obstacles, notifying adjacent neighbors, and making arrangements if pets or children need to be kept away from the work area during the day. We will walk you through the process in detail during our initial consultation and provide a clear timeline for the work.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="cta-banner" aria-label="Call to Action">
+    <div class="container">
+      <div class="cta-banner-content animate">
+        <span class="label-tag white">Get Started</span>
+        <h2>Ready to Care for Your Trees?</h2>
+        <p>Schedule a free assessment with our ISA Certified Arborist and get a customized care plan for your property.</p>
+        <div class="cta-banner-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Get a Free Assessment &rarr;</a>
+          <a href="services.html" class="btn btn-outline-white">Browse Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <a href="index.html" class="footer-logo" aria-label="Canopy Arborists Home">
+            <svg width="36" height="36" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="19" cy="19" r="19" fill="rgba(255,255,255,0.1)"/>
+              <path d="M19 6 C14 6 10 10 10 15 C10 18 11.5 20.5 14 22 L14 30 L24 30 L24 22 C26.5 20.5 28 18 28 15 C28 10 24 6 19 6Z" fill="#F9D619"/>
+            </svg>
+            <span class="nav-logo-text">
+              Canopy Arborists
+              <span>ISA Certified</span>
+            </span>
+          </a>
+          <p class="footer-tagline">Science-based tree care, preservation, and risk management for the landscapes that matter most — serving Sonoma, Napa &amp; Marin Counties.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9.5 2.5h2V0h-2C7.6 0 6 1.6 6 3.5V5H4v2.5h2V16h2.5V7.5H11l.5-2.5H8.5V3.5c0-.6.4-1 1-1Z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="1" y="1" width="14" height="14" rx="4" fill="none" stroke="white" stroke-width="1.5"/><circle cx="8" cy="8" r="3" fill="none" stroke="white" stroke-width="1.5"/><circle cx="12" cy="4" r="1" fill="white"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="1" y="1" width="14" height="14" rx="2" fill="none" stroke="white" stroke-width="1.5"/><path d="M4 6.5V12M4 4v.5M7.5 12V9c0-1 .6-1.5 1.5-1.5s1.5.5 1.5 1.5V12M7.5 6.5V12" stroke="white" stroke-width="1.2" stroke-linecap="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="index.html#why-us">Why Choose Us</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#management-plans">Tree Management Plans</a></li>
+            <li><a href="services.html#pruning">Tree Pruning</a></li>
+            <li><a href="services.html#plant-health">Plant Health Care</a></li>
+            <li><a href="services.html#risk-assessment">Tree Risk Assessment</a></li>
+            <li><a href="services.html#removal">Tree Removal</a></li>
+            <li><a href="services.html#emergency">Emergency Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2 2C2 2 4 1 5 3L6.5 5.5C7 6.5 6.5 7 6 7.5C5.5 8 6 9 7 10C8 11 9 11.5 9.5 11C10 10.5 10.5 10 11.5 10.5L14 12C16 13 15 15 15 15C15 15 13 17 8 12C3 7 2 2 2 2Z"/></svg>
+            <p>(707) 555-0190</p>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="1" y="3" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M1 5L8 10L15 5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+            <p>info@canopyarborists.com</p>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M8 1C5.2 1 3 3.2 3 6C3 9.8 8 15 8 15C8 15 13 9.8 13 6C13 3.2 10.8 1 8 1ZM8 8C6.9 8 6 7.1 6 6C6 4.9 6.9 4 8 4C9.1 4 10 4.9 10 6C10 7.1 9.1 8 8 8Z"/></svg>
+            <p>Sonoma County<br/>Napa County<br/>Marin County</p>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 4V8L11 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            <p>Mon–Fri: 7am–6pm<br/>Sat: 8am–2pm</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2025 Canopy Arborists. All rights reserved. ISA Certified Arborist.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
